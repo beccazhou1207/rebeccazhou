@@ -2,6 +2,21 @@
     font-family: GTFAgenturTRIAL-Regular;
     src: url("assets/fonts/GTFAgenturTRIAL-Regular.otf") format("opentype");
 }
+@font-face {
+    font-family: Ogg-Roman;
+    src: url("assets/fonts/Ogg-Roman.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: GTFChapterTRIAL-Light;
+    src: url("assets/fonts/GTFChapterTRIAL-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Totentanz_TEST-Backslanted;
+    src: url("assets/fonts/Totentanz_TEST-Backslanted.otf") format("opentype");
+}
 
 
 
@@ -21,27 +36,51 @@ div.header{
 	/*margin: top right bottom left*/
 	text-align: left;
 }
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    font-family: GTFChapterTRIAL-Light;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+div.intro{
+	margin: 0px 0px 0px 40px;
+	font-family:GTFAgenturTRIAL-Regular;
+	color: black;
+	font-size: 50px;
+}
 
 div.mainstage{
 	margin: -42px 0px 0px 40px;
 	/*margin: top right bottom left*/
-	text-align: left;
+	position: fixed;
+    bottom: 2%;
 }
 
 div.backstage{
-	margin: 620px 50px 0px 0px;
+	margin: 0px 0px 0px -60px;
 	/*margin: top right bottom left*/
 	text-align: right;
+	position: fixed;
+    width: 100%;
+    bottom: 2%;
 }
-
-
-
-/*div.intro{
-	margin: 45px 0px 0px 115px;
-	margin: top right bottom left
-	text-align: left;
-
-}*/
 
 h1 {
 	font-family:GTFAgenturTRIAL-Regular;
